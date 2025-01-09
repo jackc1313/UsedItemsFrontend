@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="card-header">
+    <h3>{{ item.name }}</h3>
+  </div>
+  <div class="card-body">
+    <p><strong>Provincia:</strong> {{ item.province}}</p>
+    <p><strong>Prezzo:</strong> {{ item.price }}</p>
+    <p><strong>Peso:</strong> {{ item.weight }}</p>
+    <p><button (click)="eventEmit()">METTI IN RISALTO/PORTA IN BASSO</button></p>
+<!--    <p><button (click)="eventEmitBottomItem()">PORTA IN BASSO</button></p>-->
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div *ngFor="let i of items">
+
+  <app-single-item
+    [item]="i"
+    (topOrBottom)="moveItem($event)">
+<!--    (topItem)="mettiInEvidenza($event)"-->
+<!--    (bottomItem)="mettiInFondo($event)"-->
+<!--    [evidenziato]="i===inEvidenza"-->
+
+  </app-single-item>
+
+</div>
